@@ -1,1 +1,2 @@
-document.getElementById("name").innerHTML = "Your Name";
+let links = document.querySelectorAll("a");
+console.log(links);
