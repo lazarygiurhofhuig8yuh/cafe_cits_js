@@ -2,23 +2,104 @@ html,
 body {
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
-    text-align: center;
 }
 
-.container {
-    background-color: beige;
-    padding: 20px;
-    border: 3px black;
-    height: 100vh;
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    height: 45px;
+    position: absolute;
+    top: 0;
+}
+
+.header h1 {
+    font-family: Helvetica;
+    font-size: 23px;
+    color: cadetblue;
+    margin-left: 30px;
+}
+
+.header h1:hover {
+    color: cadetblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 44px;
+}
+
+.main-nav a {
+    font-family: Arial;
+    font-size: 15px;
+    color: cadetblue;
+    padding: 0px 5px;
+}
+
+.main-nav a:hover {
+    color: deepskyblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main-nav a.selected {
+    color: deepskyblue;
+}
+
+.footer {
+    width: 100vw;
+    background: cadetblue;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 24px;
 }
-h1{
-    font-size: 150px;
-    margin-bottom: 10px;
+
+.social-nav {
+    background: cadetblue;
+    display: flex;
 }
-h2{
-    font-family:'Courier New', Courier, monospace;
+
+.social-nav a {
+    font-family: Arial;
+    font-size: 15px;
+    color: white;
+    padding: 0px 25px;
+}
+
+.social-nav a:hover {
+    color: #eee;
+    text-decoration: underline;
+}
+
+.content {
+    height: calc(100vh - 186px);
+    padding: 40px;
+    padding-top: 85px;
+}
+
+.hide {
+    display: none;
+}
+
+.content h1 {
+    color: cadetblue;
+    font-family: Helvetica;
+    font-size: 55px;
+}
+
+.content p {
+    font-size: 18px;
 }
