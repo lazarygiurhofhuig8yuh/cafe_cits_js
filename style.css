@@ -1,0 +1,24 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    background-color: beige;
+    padding: 20px;
+    border: 3px black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    font-size: 150px;
+    margin-bottom: 10px;
+}
+h2{
+    font-family:'Courier New', Courier, monospace;
+}
