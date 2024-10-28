@@ -1,4 +1,4 @@
-# Intro to the DOM
+# Cafe CITS with JavaScript
 
 ## Getting Started
 
@@ -13,7 +13,7 @@ Make sure you have **Node.js** and **npm** installed on your system. You can dow
 1. **Clone the Repository**
    ```bash
    git clone [your remote link]
-   cd Intro_to_DOM
+   cd cafe_cits_js
    ```
 2. **Install Dependencies**
 

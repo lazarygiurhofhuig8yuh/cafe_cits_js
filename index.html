@@ -2,39 +2,81 @@
 <html>
 
 <head>
-  <title>[Full Name] Portfolio Site</title>
+  <title>Cafe CITS</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Kode+Mono:wght@400..700&display=swap"
+    rel="stylesheet" />
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width" />
-  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <div class="header">
-    <a id="title">
-      <h1>[Full Name] Portfolio</h1>
-    </a>
-    <div class="main-nav">
-      <a id="about">ABOUT</a>
-      <a id="resume">RESUME</a>
-      <a id="projects">PROJECTS</a>
+  <header id="header">
+    <div class="wrapper">
+      <div id="logo"></div>
+      <a href="#main">
+        <h1>Café CITS</h1>
+      </a>
+      <div class="container" id="hambergure">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
     </div>
-  </div>
-  <div id="landing" class="content">
-    <h1>Welcome to my Digital Playground!</h1>
-    <p>... Landing Content</p>
-  </div>
-  <div id="about-content" class="content">… About Content…</div>
-  <div id="resume-content" class="content">… Resume Content …</div>
-  <div id="projects-content" class="content">… Projects Content …</div>
+    <nav id="nav">
+      <ul>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#shop">SHOP</a></li>
+      </ul>
+    </nav>
+    <div class="location">
+      <p>21 E North Ave, Baltimore, MD 21202</p>
+      <p>Open Mon - Thur | 12pm - 6pm</p>
+    </div>
+    <div class="social">
+      <a href="https://instagram.com">Instagram</a>
+      <a href="https://youtube.com">YouTube</a>
+    </div>
+  </header>
+  <main id="main">
+    <div class="hero">
+      <h1>Welcome to Café CITS</h1>
+    </div>
+    <div class="gallery">
+      <img id="img-1"
+        src="https://images.pexels.com/photos/4255379/pexels-photo-4255379.jpeg?auto=compress&cs=tinysrgb&w=800" />
+      <img id="img-2"
+        src="https://images.pexels.com/photos/2013804/pexels-photo-2013804.jpeg?auto=compress&cs=tinysrgb&w=800" />
+      <img id="img-3"
+        src="https://images.pexels.com/photos/5699508/pexels-photo-5699508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+    </div>
+    <div id="about" class="wrapper-v">
+      <h1>About our Café</h1>
+      <p>At Café CITS, we understand the unique needs of the coding</p>
+      <p>Whether you're debugging a complex algorithm or brainstorming</p>
+      <p>Join us and let's caffeinate your code together!</p>
+    </div>
 
-  <div class="footer">
-    <div class="social-nav">
-      <a href="#">Replit</a>
-      <a href="#">GitHub</a>
-      <a href="#">Linked-In</a>
+    <div id="menu" class="wrapper-v">
+      <h1>Menu</h1>
+
+      <h2>Beverages</h2>
+      <table>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Espresso</td>
+          <td>$2.50</td>
+        </tr>
+      </table>
     </div>
-  </div>
-  <script src="./index.js"></script>
+  </main>
+  <script src="index.js"></script>
 </body>
 
 </html>
